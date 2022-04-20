@@ -13,7 +13,7 @@
    " . main main main . "
    "footer footer footer footer footer";
     grid-template-rows: auto auto auto auto auto auto auto;
-    grid-template-columns: 16vw auto auto auto 16vw; 
+    grid-template-columns: 17vw auto auto auto 17vw; 
 }
 
 .header {
@@ -172,16 +172,11 @@
 
 .main {
     grid-area: main;
-}
-
-.comercio {
     display: grid;
-    grid-template-areas: "titulo titulo "
-    "bloqueSelector articulos "
-    " . articulos ";
-    grid-template-rows: auto auto auto;
-    grid-template-columns: 20% 80%;
-    margin-top: 48px;
+    grid-template-areas: " titulo "
+    "comercio ";
+    grid-template-rows: auto auto;
+    grid-template-columns: auto;
 }
 
 .titulo {
@@ -192,6 +187,18 @@
     color: #000000;
     border-bottom: solid 1px #CCCCCC;
     padding-bottom: 6px;
+    margin-top: 48px;
+}
+
+.comercio {
+    display: grid;
+    grid-template-areas:
+    "bloqueSelector articulos "
+    " . articulos ";
+    grid-template-rows: auto auto;
+    grid-template-columns: 20% 80%;
+    
+    margin-right: 15px;
 }
 
 .bloqueSelector {
