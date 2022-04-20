@@ -80,6 +80,7 @@
     width: 40px;
     display: flex;
     justify-content: center;
+    align-content: center;
 }
 
 .lupaBuscar img {
@@ -96,6 +97,7 @@
 .services div {
     margin: 14px 279px;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
 }
 
@@ -305,7 +307,7 @@
 
 .imagenCompu {
     margin-top: 10px;
-    margin-left: 25px;
+    margin-left: 20px;
     margin-bottom: 4px;
     max-width: 100%;
     height: auto;
@@ -313,7 +315,7 @@
 
 .descripcion {
     color: #0d5c91;
-    font: normal normal bold 16px/16px Lato;
+    font: normal normal bold 15px/15px Lato;
     text-align: left;
     letter-spacing: 0px;
 }
@@ -340,7 +342,7 @@
     color: #FFFFFF;
     margin-top: 12px;
     height: 45px;
-    width: 200px;
+    width: 190px;
     border: solid 1px #BCBCBC;
     border-radius: 4px;
 }
