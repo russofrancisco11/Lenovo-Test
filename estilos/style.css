@@ -24,6 +24,11 @@
     background-color: #FFFFFF;
 }
 
+.logoLenovo {
+    max-width: 100%;
+    height: auto;
+}
+
 .intLinks{
     margin: 10px;    
 }
@@ -216,6 +221,11 @@
     color: #000000;
 }
 
+.displayFiltros {
+    max-width: 100%;
+    height: auto;
+}
+
 .preciosDisponibles{
     font: normal normal bold 14px/14px Lato;
     text-align: left;
@@ -384,6 +394,11 @@
         justify-content: space-between;
         background-color: #FFFFFF;
     }
+
+    .logoLenovo {
+        max-width: 100%;
+        height: auto;
+    }
     
     .intLinks{
         margin: 7px;    
@@ -408,7 +423,7 @@
     .navLinks a {
         text-decoration: none;
         text-align: left;
-        font: normal normal bold 11px/11px Lato-Bold;
+        font: normal normal bold 13px/13px Lato-Bold;
         letter-spacing: -0.14px;
         color: #000000;
         margin-right: 15px;
@@ -429,7 +444,7 @@
     
     .textoBuscar{
         text-align: left;
-        font: normal normal 11px/11px Lato;
+        font: normal normal 13px/13px Lato;
         letter-spacing: 0px;
         color: #000000;
         margin: 7px 14px;
@@ -465,7 +480,7 @@
     .services div a{
         text-decoration: none;
         text-align: left;
-        font: normal normal bold 10px/10px Lato;
+        font: normal normal bold 12px/12px Lato;
         letter-spacing: 0px;
         color: #000000;
     }
@@ -574,6 +589,11 @@
         text-align: left;
         letter-spacing: 0px;
         color: #000000;
+    }
+
+    .displayFiltros {
+        max-width: 100%;
+        height: auto;
     }
     
     .preciosDisponibles{
@@ -736,7 +756,7 @@
        " . main main main . "
        "footer footer footer footer footer";
         grid-template-rows: auto auto auto auto auto auto auto;
-        grid-template-columns: 17vw auto auto auto 17vw; 
+        grid-template-columns: 10vw auto auto auto 10vw; 
     }
     
     .header {
@@ -745,6 +765,11 @@
         flex-direction: row;
         justify-content: space-between;
         background-color: #FFFFFF;
+    }
+
+    .logoLenovo {
+        max-width: 100%;
+        height: auto;
     }
     
     .intLinks{
@@ -770,7 +795,7 @@
     .navLinks a {
         text-decoration: none;
         text-align: left;
-        font: normal normal bold 9px/9px Lato-Bold;
+        font: normal normal bold 11px/11px Lato-Bold;
         letter-spacing: -0.14px;
         color: #000000;
         margin-right: 12px;
@@ -784,14 +809,14 @@
     
     .casillaBuscar {
         width: 260px;
-        height: 23px;
+        height: 25px;
         display: flex;
         justify-content: space-between;
     }
     
     .textoBuscar{
         text-align: left;
-        font: normal normal 9px/9px Lato;
+        font: normal normal 11px/11px Lato;
         letter-spacing: 0px;
         color: #000000;
         margin: 6px 12px;
@@ -807,27 +832,28 @@
     }
     
     .lupaBuscar img {
-        height: 9px;
-        width: 10px;
+        height: 14px;
+        width: 16px;
     }
     
     .services {
         grid-area: services;
         background-color: #f8f8f8;
-        height: 29px;
+        height: 48px;
     }
     
     .services div {
-        margin: 9px 181px;
+        margin: 9px 110px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        align-items: center;
     }
     
     .services div a{
         text-decoration: none;
         text-align: left;
-        font: normal normal bold 8px/8px Lato;
+        font: normal normal bold 11px/11px Lato;
         letter-spacing: 0px;
         color: #000000;
     }
@@ -835,7 +861,7 @@
     .discount {
         grid-area: discount;
         background-color: #af0e4e;
-        height: 32px;
+        height: 48px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -845,30 +871,30 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 10px 182px;
+        margin: 9px 128px;
     }
     
     .discountRegular {
-        font: normal normal 10px/10px Lato;
+        font: normal normal 13px/13px Lato;
         letter-spacing: -0.13px;
         color: #FFFFFF;
         text-transform: uppercase;
-        margin-right: 4px;
+        margin-right: 3px;
     }
     
     .discountBlack {
-        font: normal normal 10px/10px Lato;
+        font: normal normal 13px/13px Lato;
         letter-spacing: -0.13px;
         color: #FFFFFF;
         text-transform: uppercase;
-        margin-right: 4px;
+        margin-right: 3px;
     }
     
     .discountBold {
-        font: normal normal 10px/10px Lato;
+        font: normal normal 13px/13px Lato;
         letter-spacing: -0.13px;
         color: #FFFFFF;
-        margin-right: 4px;
+        margin-right: 3px;
     }
     
     .subcat {
@@ -932,27 +958,32 @@
     }
     
     .selectorPrecio p {
-        font: normal normal bold 9px/9px Lato;
+        font: normal normal bold 12px/12px Lato;
         text-align: left;
         letter-spacing: 0px;
         color: #000000;
     }
+
+    .displayFiltros {
+        max-width: 100%;
+        height: auto;
+    }
     
     .preciosDisponibles{
-        font: normal normal bold 9px/9px Lato;
+        font: normal normal bold 12px/12px Lato;
         text-align: left;
         letter-spacing: 0px;
         color: #555555;
         display: flex;
-        margin-top: 15px;
-        margin-right: 11px;
+        margin-top: 13.5px;
+        margin-right: 10.5px;
     }
     
     .bloqueNegro {
         height: 9px;
         width: 9px;
         margin-right: 3px;
-        border-radius: 4px;
+        border-radius: 2px;
         background-color: #000000;
     }
     
@@ -961,10 +992,11 @@
         text-align: left;
         letter-spacing: 0px;
         color: #0d5c91;
-        margin-top: 8px;
-        padding-bottom: 14px;
+        margin-top: 22.5px;
+        padding-bottom: 13.5px;
         border-bottom: solid 1px #CCCCCC;
     }
+    
     
     .articulos {
         grid-area: articulos;
@@ -980,10 +1012,11 @@
         grid-area: articulosEncabezado;
         display: flex;
         justify-content: space-between;
+        margin-top: 5px;
     }
     
     .articulosEncabezado p {
-        font: normal normal bold 9px/9px Lato;
+        font: normal normal bold 12px/12px Lato;
         text-align: left;
         letter-spacing: 0px;
         color: #000000;
@@ -1041,20 +1074,20 @@
     
     .descripcion {
         color: #0d5c91;
-        font: normal normal bold 10px/10px Lato;
+        font: normal normal bold 11px/11px Lato;
         text-align: left;
         letter-spacing: 0px;
     }
     
     .precio {
         margin-top: 26px;
-        font: normal normal 17px/17px Lato;
+        font: normal normal 18px/18px Lato;
         text-align: left;
         letter-spacing: 0px;
     }
     
     .cupon {
-        font: normal normal 8px/8px Lato;
+        font: normal normal 9px/9px Lato;
         text-align: left;
         letter-spacing: 0px;
         margin-top: 8px;
@@ -1062,13 +1095,13 @@
     
     .agregarCarrito {
         background-color:  #0d5c91;
-        font: normal normal bold 10px/10px Lato;
+        font: normal normal bold 11px/11px Lato;
         text-align: center;
         letter-spacing: 0px;
         color: #FFFFFF;
         margin-top: 8px;
-        height: 29px;
-        width: 123px;
+        height: 30px;
+        width: 155px;
         border: solid 1px #BCBCBC;
         border-radius: 4px;
     }
@@ -1097,7 +1130,7 @@
        " . main main main . "
        "footer footer footer footer footer";
         grid-template-rows: auto auto auto auto auto auto auto;
-        grid-template-columns: 17vw auto auto auto 17vw; 
+        grid-template-columns: 10vw auto auto auto 10vw; 
     }
     
     .header {
@@ -1107,13 +1140,18 @@
         justify-content: space-between;
         background-color: #FFFFFF;
     }
+
+    .logoLenovo {
+        max-width: 100%;
+        height: auto;
+    }
     
     .intLinks{
-        margin: 10px;    
+        margin: 5px;    
     }
     
     .intLinks a img{
-        margin: 5px 7px;
+        margin: 4px 6px;
         max-width: 100%;
         height: auto;
     }
@@ -1124,17 +1162,17 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        margin: 8px;
+        margin: 3px;
         background-color: #FFFFFF;
     }
     
     .navLinks a {
         text-decoration: none;
         text-align: left;
-        font: normal normal bold 14px/14px Lato-Bold;
+        font: normal normal bold 12px/12px Lato-Bold;
         letter-spacing: -0.14px;
         color: #000000;
-        margin-right: 20px;
+        margin-right: 8px;
     }
     
     .buscador {
@@ -1144,24 +1182,24 @@
     }
     
     .casillaBuscar {
-        width: 400px;
-        height: 35px;
+        width: 240px;
+        height: 25px;
         display: flex;
         justify-content: space-between;
     }
     
     .textoBuscar{
         text-align: left;
-        font: normal normal 14px/14px Lato;
+        font: normal normal 11px/11px Lato;
         letter-spacing: 0px;
         color: #000000;
-        margin: 9px 18px;
+        margin: 6px 12px;
     }
     
     .lupaBuscar{
         background-color: #000000;
-        height: 35px;
-        width: 40px;
+        height: 25px;
+        width: 27px;
         display: flex;
         justify-content: center;
         align-content: center;
@@ -1175,28 +1213,34 @@
     .services {
         grid-area: services;
         background-color: #f8f8f8;
-        height: 45px;
+        display: flex;
+        align-items: center;
+        overflow: auto;
+        white-space: nowrap;
+        height: 64px;
     }
     
     .services div {
-        margin: 14px 279px;
+        margin: 3px 10px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
     }
     
     .services div a{
+        display: inline-block;
         text-decoration: none;
         text-align: left;
-        font: normal normal bold 13px/13px Lato;
+        font: normal normal bold 12px/12px Lato;
         letter-spacing: 0px;
         color: #000000;
+        margin-right: 15px;
     }
     
     .discount {
         grid-area: discount;
         background-color: #af0e4e;
-        height: 50px;
+        height: 48px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1206,38 +1250,38 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 15px 281px;
+        margin: 9px 128px;
     }
     
     .discountRegular {
-        font: normal normal 16px/16px Lato;
+        font: normal normal 11px/11px Lato;
         letter-spacing: -0.13px;
         color: #FFFFFF;
         text-transform: uppercase;
-        margin-right: 4px;
+        margin-right: 3px;
     }
     
     .discountBlack {
-        font: normal normal 16px/16px Lato;
+        font: normal normal 11px/11px Lato;
         letter-spacing: -0.13px;
         color: #FFFFFF;
         text-transform: uppercase;
-        margin-right: 4px;
+        margin-right: 3px;
     }
     
     .discountBold {
-        font: normal normal 16px/16px Lato;
+        font: normal normal 11px/11px Lato;
         letter-spacing: -0.13px;
         color: #FFFFFF;
-        margin-right: 4px;
+        margin-right: 3px;
     }
     
     .subcat {
         grid-area: subcat;
-        height: 60px;
+        height: 36px;
         background-color: #FFFFFF;
         border-bottom: solid 1px #555555;
-        padding: 15px 320px;
+        padding: 9px 112px;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -1246,7 +1290,7 @@
     .subcat a{
         text-decoration: none;
         text-align: left;
-        font: normal normal 24px/24px Lato;
+        font: normal normal 13.5px/13.5px Lato;
         letter-spacing: 0px;
         color: #555555;
     }
@@ -1262,13 +1306,13 @@
     
     .titulo {
         grid-area: titulo;
-        font: normal normal bold 32px/32px Lato;
+        font: normal normal bold 19.5px/19.5px Lato;
         text-align: left;
         letter-spacing: 0px;
         color: #000000;
         border-bottom: solid 1px #CCCCCC;
-        padding-bottom: 6px;
-        margin-top: 48px;
+        padding-bottom: 3px;
+        margin-top: 28px;
     }
     
     .comercio {
@@ -1277,116 +1321,108 @@
         "bloqueSelector articulos "
         " . articulos ";
         grid-template-rows: auto auto;
-        grid-template-columns: 20% 80%;
-        
-        margin-right: 15px;
+        grid-template-columns: 30% 70%;
+        margin-right: 9px;
     }
     
     .bloqueSelector {
-        margin-right: 39px;
-        margin-top: 26px;
+        margin-right: 22.5px;
+        margin-top: 15px;
         grid-area: bloqueSelector;
     }
     
     .selectorPrecio {
+        grid-area: selectorPrecio;
         display: flex;
         justify-content: space-between;
     }
     
     .selectorPrecio p {
-        font: normal normal bold 14px/14px Lato;
+        font: normal normal bold 12px/12px Lato;
         text-align: left;
         letter-spacing: 0px;
         color: #000000;
     }
+
+    .displayFiltros {
+        max-width: 100%;
+        height: auto;
+    }
     
     .preciosDisponibles{
-        font: normal normal bold 14px/14px Lato;
+        font: normal normal bold 12px/12px Lato;
         text-align: left;
         letter-spacing: 0px;
         color: #555555;
         display: flex;
-        margin-top: 23px;
-        margin-right: 17px;
+        margin-top: 13.5px;
+        margin-right: 10.5px;
     }
     
     .bloqueNegro {
-        height: 14px;
-        width: 14px;
-        margin-right: 5px;
-        border-radius: 4px;
+        height: 9px;
+        width: 9px;
+        margin-right: 3px;
+        border-radius: 2px;
         background-color: #000000;
     }
     
     .linkMasPrecios{
-        font: normal normal bold 14px/14px Lato;
+        font: normal normal bold 9px/9px Lato;
         text-align: left;
         letter-spacing: 0px;
         color: #0d5c91;
-        margin-top: 13px;
-        padding-bottom: 22px;
+        margin-top: 22.5px;
+        padding-bottom: 13.5px;
         border-bottom: solid 1px #CCCCCC;
     }
     
     .articulos {
         grid-area: articulos;
-        margin-top: 20px;
+        margin-top: 30px;
         display: grid;
-        grid-template-areas: " articulosEncabezado "
+        grid-template-areas:
         " listaArticulos ";
-        grid-template-rows: 45px auto;
+        grid-template-rows: auto;
         grid-template-columns: 100%;
     }
-    
+
     .articulosEncabezado{
-        grid-area: articulosEncabezado;
-        display: flex;
-        justify-content: space-between;
-    }
-    
-    .articulosEncabezado p {
-        font: normal normal bold 14px/14px Lato;
-        text-align: left;
-        letter-spacing: 0px;
-        color: #000000;
-    }
-    
-    .ordenador{
-        width: 218px;
-        height: 45px;
-        border: solid 1px #BCBCBC;
+        display: none;
     }
     
     .listaArticulos {
         grid-area: listaArticulos;
         display: flex;
-        justify-content: space-between;
-        margin-top: 15px;
+        flex-wrap: wrap;
+        margin-top: 9px;
     }
     
     .compuDoorbuster {
         border: solid 1px #BCBCBC;
         border-radius: 5px;
-        padding: 15px;
+        margin: 7.5px;
+        padding: 9px;
     }
     
     .compuNormal {
         border: solid 1px #BCBCBC;
         border-radius: 5px;
-        padding: 15px;
+        margin: 7.5px;
+        padding: 9px;
     }
     
     .doorbuster {
         background-color: #af0200;
     }
     
-    .doorbuster{
+    .doorbuster {
         color: #FFFFFF;
-        font: normal normal 14px/14px Lato;
+        font: normal normal 9px/9px Lato;
         text-align: center;
         letter-spacing: 0px;
-        height: 30px;
-        width: 140px;
+        height: 18px;
+        width: 84px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1394,43 +1430,43 @@
     }
     
     .imagenCompu {
-        margin-top: 10px;
-        margin-left: 20px;
-        margin-bottom: 4px;
+        margin-top: 21px;
+        margin-left: 12px;
+        margin-bottom: 3px;
         max-width: 100%;
         height: auto;
     }
     
     .descripcion {
         color: #0d5c91;
-        font: normal normal bold 15px/15px Lato;
+        font: normal normal bold 11px/11px Lato;
         text-align: left;
         letter-spacing: 0px;
     }
     
     .precio {
-        margin-top: 40px;
-        font: normal normal 26px/26px Lato;
+        margin-top: 69px;
+        font: normal normal 18px/18px Lato;
         text-align: left;
         letter-spacing: 0px;
     }
     
     .cupon {
-        font: normal normal 12px/12px Lato;
+        font: normal normal 9px/9px Lato;
         text-align: left;
         letter-spacing: 0px;
-        margin-top: 12px;
+        margin-top: 7.5px;
     }
     
     .agregarCarrito {
         background-color:  #0d5c91;
-        font: normal normal bold 16px/16px Lato;
+        font: normal normal bold 12px/12px Lato;
         text-align: center;
         letter-spacing: 0px;
         color: #FFFFFF;
-        margin-top: 12px;
-        height: 45px;
-        width: 190px;
+        margin-top: 8px;
+        height: 30px;
+        width: 155px;
         border: solid 1px #BCBCBC;
         border-radius: 4px;
     }
@@ -1443,7 +1479,7 @@
     }
     
     .footer p {
-        font: normal normal 12px/12px Lato;
+        font: normal normal 10px/10px Lato;
         margin: 10px;   
     }
 }
@@ -1452,14 +1488,14 @@
     .grid {
         display: grid;
         grid-template-areas: "header header header header header"
-       " nav nav nav nav nav "
+       " nav nav nav nv nav "
        " services services services services services "
        " discount discount discount discount discount "
        " subcat subcat subcat subcat subcat "
        " . main main main . "
        "footer footer footer footer footer";
         grid-template-rows: auto auto auto auto auto auto auto;
-        grid-template-columns: 17vw auto auto auto 17vw; 
+        grid-template-columns: 8vw auto auto auto 8vw; 
     }
     
     .header {
@@ -1469,96 +1505,112 @@
         justify-content: space-between;
         background-color: #FFFFFF;
     }
+
+    .logoLenovo {
+        max-width: 100%;
+        height: auto;
+    }
     
     .intLinks{
-        margin: 10px;    
+        margin: 2.5px;    
     }
     
     .intLinks a img{
-        margin: 5px 7px;
+        margin: 2px 2.5px;
         max-width: 100%;
         height: auto;
     }
     
     .nav {
         grid-area: nav;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        margin: 8px;
+        display: grid;
+        grid-template-areas: "navLinks"
+       " buscador ";
+        grid-template-rows: auto auto;
+        grid-template-columns: auto; 
+        margin: 5px;
         background-color: #FFFFFF;
     }
     
     .navLinks a {
+        grid-area: navLinks;
         text-decoration: none;
         text-align: left;
-        font: normal normal bold 14px/14px Lato-Bold;
+        font: normal normal bold 12px/12px Lato-Bold;
         letter-spacing: -0.14px;
         color: #000000;
-        margin-right: 20px;
+        margin-right: 4px;
     }
     
     .buscador {
+        grid-area: buscador;
         display: flex;
         border: solid 1px #000000;
         border-radius: 4px;
+        margin: 5px;
     }
     
     .casillaBuscar {
-        width: 400px;
-        height: 35px;
+        width: 100%;
+        height: 25px;
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
     
     .textoBuscar{
         text-align: left;
-        font: normal normal 14px/14px Lato;
+        font: normal normal 9px/9px Lato;
         letter-spacing: 0px;
         color: #000000;
-        margin: 9px 18px;
+        margin: 5px 5px;
     }
     
     .lupaBuscar{
         background-color: #000000;
-        height: 35px;
-        width: 40px;
+        height: 25px;
+        width: 27px;
         display: flex;
         justify-content: center;
         align-content: center;
     }
     
     .lupaBuscar img {
-        height: 14px;
-        width: 16px;
+        height: 10px;
+        width: 1px;
     }
     
     .services {
         grid-area: services;
         background-color: #f8f8f8;
-        height: 45px;
+        display: flex;
+        align-items: center;
+        overflow: auto;
+        white-space: nowrap;
+        height: 64px;
     }
     
     .services div {
-        margin: 14px 279px;
+        margin: 3px 10px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
     }
     
     .services div a{
+        display: inline-block;
         text-decoration: none;
         text-align: left;
-        font: normal normal bold 13px/13px Lato;
+        font: normal normal bold 12px/12px Lato;
         letter-spacing: 0px;
         color: #000000;
+        margin-right: 15px;
     }
     
     .discount {
         grid-area: discount;
         background-color: #af0e4e;
-        height: 50px;
+        height: 54px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1566,51 +1618,56 @@
     
     .discountText {
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        margin: 15px 281px;
+        margin: 3px 10px;
     }
     
     .discountRegular {
-        font: normal normal 16px/16px Lato;
+        font: normal normal 12px/12px Lato;
         letter-spacing: -0.13px;
         color: #FFFFFF;
         text-transform: uppercase;
-        margin-right: 4px;
+        margin-right: 2px;
     }
     
     .discountBlack {
-        font: normal normal 16px/16px Lato;
+        font: normal normal 12px/12px Lato;
         letter-spacing: -0.13px;
         color: #FFFFFF;
         text-transform: uppercase;
-        margin-right: 4px;
+        margin-right: 2px;
     }
     
     .discountBold {
-        font: normal normal 16px/16px Lato;
+        font: normal normal 12px/12px Lato;
         letter-spacing: -0.13px;
         color: #FFFFFF;
-        margin-right: 4px;
+        margin-right: 2px;
     }
     
     .subcat {
         grid-area: subcat;
-        height: 60px;
+        height: 48px;
         background-color: #FFFFFF;
         border-bottom: solid 1px #555555;
-        padding: 15px 320px;
+        padding: 5px 15px;
         display: flex;
         justify-content: space-between;
         align-items: center;
+        overflow: auto;
+        white-space: nowrap;
     }
     
-    .subcat a{
+    .subcat a {
+        display: inline-block;
         text-decoration: none;
         text-align: left;
-        font: normal normal 24px/24px Lato;
+        font: normal normal 11px/11px Lato;
         letter-spacing: 0px;
         color: #555555;
+        margin-right: 12px;
     }
     
     .main {
@@ -1624,131 +1681,123 @@
     
     .titulo {
         grid-area: titulo;
-        font: normal normal bold 32px/32px Lato;
+        font: normal normal bold 30px/30px Lato;
         text-align: left;
         letter-spacing: 0px;
         color: #000000;
         border-bottom: solid 1px #CCCCCC;
-        padding-bottom: 6px;
-        margin-top: 48px;
+        padding-bottom: 5px;
+        margin-top: 35px;
     }
     
     .comercio {
         display: grid;
         grid-template-areas:
-        "bloqueSelector articulos "
-        " . articulos ";
-        grid-template-rows: auto auto;
-        grid-template-columns: 20% 80%;
-        
-        margin-right: 15px;
+        "bloqueSelector"
+        " articulos ";
+        grid-template-rows: auto;
+        grid-template-columns: auto;
+        margin-right: 5px;
     }
     
     .bloqueSelector {
-        margin-right: 39px;
-        margin-top: 26px;
+        margin-right: 8px;
+        margin-top: 15px;
         grid-area: bloqueSelector;
     }
     
     .selectorPrecio {
+        grid-area: selectorPrecio;
         display: flex;
         justify-content: space-between;
     }
     
     .selectorPrecio p {
-        font: normal normal bold 14px/14px Lato;
+        font: normal normal bold 12px/12px Lato;
         text-align: left;
         letter-spacing: 0px;
         color: #000000;
     }
+
+    .displayFiltros {
+        max-width: 100%;
+        height: auto;
+    }
     
     .preciosDisponibles{
-        font: normal normal bold 14px/14px Lato;
+        font: normal normal bold 11px/11px Lato;
         text-align: left;
         letter-spacing: 0px;
         color: #555555;
         display: flex;
-        margin-top: 23px;
-        margin-right: 17px;
+        margin-top: 13px;
+        margin-right: 10px;
     }
     
     .bloqueNegro {
-        height: 14px;
-        width: 14px;
-        margin-right: 5px;
-        border-radius: 4px;
+        height: 9px;
+        width: 9px;
+        margin-right: 2px;
+        border-radius: 2px;
         background-color: #000000;
     }
     
     .linkMasPrecios{
-        font: normal normal bold 14px/14px Lato;
+        font: normal normal bold 11px/11px Lato;
         text-align: left;
         letter-spacing: 0px;
         color: #0d5c91;
         margin-top: 13px;
-        padding-bottom: 22px;
+        padding-bottom: 13px;
         border-bottom: solid 1px #CCCCCC;
     }
     
     .articulos {
         grid-area: articulos;
-        margin-top: 20px;
+        margin-top: 11.4px;
         display: grid;
-        grid-template-areas: " articulosEncabezado "
+        grid-template-areas:
         " listaArticulos ";
-        grid-template-rows: 45px auto;
+        grid-template-rows: auto;
         grid-template-columns: 100%;
     }
-    
+
     .articulosEncabezado{
-        grid-area: articulosEncabezado;
-        display: flex;
-        justify-content: space-between;
-    }
-    
-    .articulosEncabezado p {
-        font: normal normal bold 14px/14px Lato;
-        text-align: left;
-        letter-spacing: 0px;
-        color: #000000;
-    }
-    
-    .ordenador{
-        width: 218px;
-        height: 45px;
-        border: solid 1px #BCBCBC;
+        display: none;
     }
     
     .listaArticulos {
         grid-area: listaArticulos;
         display: flex;
-        justify-content: space-between;
-        margin-top: 15px;
+        flex-wrap: wrap;
+        margin-top: 9px;
     }
     
     .compuDoorbuster {
         border: solid 1px #BCBCBC;
         border-radius: 5px;
-        padding: 15px;
+        margin: 7.5px;
+        padding: 9px;
     }
     
     .compuNormal {
         border: solid 1px #BCBCBC;
         border-radius: 5px;
-        padding: 15px;
+        margin: 7.5px;
+        padding: 9px;
     }
     
     .doorbuster {
         background-color: #af0200;
     }
     
-    .doorbuster{
+    .doorbuster {
         color: #FFFFFF;
-        font: normal normal 14px/14px Lato;
+        font: normal normal 9px/9px Lato;
         text-align: center;
         letter-spacing: 0px;
-        height: 30px;
-        width: 140px;
+        height: 18px;
+        width: 84px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1756,43 +1805,43 @@
     }
     
     .imagenCompu {
-        margin-top: 10px;
-        margin-left: 20px;
-        margin-bottom: 4px;
+        margin-top: 21px;
+        margin-left: 12px;
+        margin-bottom: 3px;
         max-width: 100%;
         height: auto;
     }
     
     .descripcion {
         color: #0d5c91;
-        font: normal normal bold 15px/15px Lato;
+        font: normal normal bold 11px/11px Lato;
         text-align: left;
         letter-spacing: 0px;
     }
     
     .precio {
-        margin-top: 40px;
-        font: normal normal 26px/26px Lato;
+        margin-top: 69px;
+        font: normal normal 18px/18px Lato;
         text-align: left;
         letter-spacing: 0px;
     }
     
     .cupon {
-        font: normal normal 12px/12px Lato;
+        font: normal normal 9px/9px Lato;
         text-align: left;
         letter-spacing: 0px;
-        margin-top: 12px;
+        margin-top: 7.5px;
     }
     
     .agregarCarrito {
         background-color:  #0d5c91;
-        font: normal normal bold 16px/16px Lato;
+        font: normal normal bold 12px/12px Lato;
         text-align: center;
         letter-spacing: 0px;
         color: #FFFFFF;
-        margin-top: 12px;
-        height: 45px;
-        width: 190px;
+        margin-top: 8px;
+        height: 30px;
+        width: 150px;
         border: solid 1px #BCBCBC;
         border-radius: 4px;
     }
@@ -1805,7 +1854,7 @@
     }
     
     .footer p {
-        font: normal normal 12px/12px Lato;
+        font: normal normal 10px/10px Lato;
         margin: 10px;   
     }
 }
